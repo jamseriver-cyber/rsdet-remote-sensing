@@ -1,0 +1,51 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Local datasets and model binaries
+data/
+datasets/
+raw_data/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Generated experiment output
+runs/
+outputs/
+artifacts/
+deliverables/
+*.log
+*.tmp
+
+# Internal material
+private/
+internal/
+local_notes/
+RSDET_研究报告修改意见任务书*.md
+
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
